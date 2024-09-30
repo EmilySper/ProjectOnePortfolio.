@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #909B71;
+  box-sizing: border-box; 
+}
+nav{
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F69C9E;
+  color: white;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 25px;
+}
+.content{
+  display: flex;
+  padding: 25px;
+}
+.colOne{
+  flex: 1;
+  height: 800px;
+  background-color: red;
+}
+.colTwo{
+  flex: 1;
+  height: 800px;
+  background-color: aqua;
+}
+.colThree{
+  flex: 1;
+  height: 800px;
+  background-color: purple;
+}
